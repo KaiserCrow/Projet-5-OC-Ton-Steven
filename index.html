@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <title>Nina Carducci</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
@@ -25,19 +26,54 @@
     <script src="./assets/scripts.js"></script>
     <script type="application/ld+json">
       {
-        "@context": "https://schema.org",
+        "@context": "http://schema.org",
         "@type": "Person",
         "name": "Nina Carducci",
-        "url": "https://www.ninacarducci.fr",
-        "image": "https://www.instagram.com/ninacarducci.photo/?hl=fr",
+        "url": "http://www.ninacarducci.com",
         "jobTitle": "Photographe professionnelle",
-        "description": "Photographe professionnelle basée en Île-de-France, spécialisée dans les mariages, les portraits, les concerts et la photographie d'entreprise.",
-        "email": "ninacarducci@gmail.com"
+        "email": "contact@ninacarducci.com",
+        "telephone": "+330102030405",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "12 Rue de la Paix",
+          "postalCode": "75002",
+          "addressLocality": "Paris",
+          "addressCountry": "France"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Services de photographie",
+          "itemListElement": [
+            {
+              "@type": "OfferCatalog",
+              "name": "Photographie de mariage",
+              "itemListElement": {
+                "@type": "Service",
+                "serviceType": "Photographie de mariage",
+                "provider": {
+                  "@type": "Person",
+                  "name": "Nina Carducci"
+                }
+              }
+            },
+            {
+              "@type": "OfferCatalog",
+              "name": "Photographie de portrait",
+              "itemListElement": {
+                "@type": "Service",
+                "serviceType": "Photographie de portrait",
+                "provider": {
+                  "@type": "Person",
+                  "name": "Nina Carducci"
+                }
+              }
+            }
+          ]
+        }
       }
     </script>
-
-    <title>Nina Carducci</title>
   </head>
+
   <body>
     <div class="top-header">
       <h2 class="name">Nina Carducci</h2>
