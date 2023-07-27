@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <meta charset="utf-8" />
     <title>Nina Carducci</title>
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
         "@type": "Person",
         "name": "Nina Carducci",
-        "url": "http://www.ninacarducci.com",
+        "url": "https://kaisercrow.github.io/Projet-5-OC-Ton-Steven/",
         "jobTitle": "Photographe professionnelle",
         "telephone": "0556677889",
         "address": {
@@ -46,7 +47,8 @@
               }
             }
           ]
-        }
+        },
+        "sameAs": ["https://www.instagram.com/ninacarducci.photo/?hl=fr"]
       }
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -62,7 +64,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
     />
-    <meta charset="UTF-8" />
+
     <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -75,8 +77,8 @@
 
   <body>
     <div class="top-header">
-      <h2 class="name">Nina Carducci</h2>
-      <div class="nav">
+      <h1 class="name">Nina Carducci</h1>
+      <nav class="nav">
         <ul>
           <li><a href="#about">À propos</a></li>
           <li><a href="#gallery">Galerie</a></li>
@@ -91,7 +93,7 @@
             /></a>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
     <div id="header">
       <div
@@ -213,7 +215,6 @@
             data-gallery-tag="Mariages"
             class="gallery-item"
             src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.avif"
-            sizes=""
             alt="Hannah-Busing"
           />
           <img
@@ -251,12 +252,12 @@
       <div class="quote">
         <figure>
           <blockquote>
-            <h1 class="quote__text">
+            <h2 class="quote__text">
               Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou
               qu’un fait est traduit en photo, il cesse d’être un fait pour
               devenir une opinion. L’inexactitude n’existe pas en photographie.
               Toutes les photos sont exactes. Aucune d’elles n’est la vérité.
-            </h1>
+            </h2>
           </blockquote>
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
@@ -310,11 +311,11 @@
     <div class="quote">
       <figure>
         <blockquote>
-          <h1 class="quote__text">
+          <h2 class="quote__text">
             De manière inconsciente, je crois, je guette un regard, une
             expression, des traits ou une nostalgie capable de résumer ou plus
             exactement de révéler une vie
-          </h1>
+          </h2>
         </blockquote>
         <figcaption class="quote__author">- Richard Avedon</figcaption>
       </figure>
@@ -326,7 +327,7 @@
           <p>
             N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures
           </p>
-          <form action="" method="post">
+          <form method="post">
             <label for="nom">Nom</label>
             <input type="text" name="nom" id="nom" />
             <label for="email">Email</label>
